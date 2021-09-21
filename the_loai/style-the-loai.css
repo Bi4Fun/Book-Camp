@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {	
+	overflow: auto;	
+	font-family: "Alegreya";
+	font-size: 15px;
+	line-height: 1;
+	background-color: white;
+}
+.wrapper {
+	max-width:1440px;
+	margin: 0 auto;
+	
+}	
+
+.container {	
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}	
+.header {
+	position: fixed;
+	border: 1px solid #f5f5f5;
+	text-transform: uppercase; 
+	padding-top: 0;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	background-color: none;
+	color: white;
+}
+
+.header-auth {
+	margin-left: 204px;	
+}
+
+.header-logo {
+	display: inline-block;
+	margin-right: 150px;
+	margin-bottom: -3px;
+}
+
+.header-menu {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.header-menu-items:hover .header-menu-link{
+	color: black;
+	background-color: white;
+}
+.header-menu-link {
+	color: white;
+	line-height: 40px;
+	padding: 30px 35px 30px 35px;
+	display: block;
+}
+
+.header-menu-link:hover {
+	background-color: white;
+	color: black;
+	transition: ease-in 0.35s;
+	-moz-transition: ease-in 0.35s;
+	-webkit-transition: ease-in 0.35s;
+}
+
+/* ---------Sub Menu---------*/
+.submenu {
+	width: 250px;
+	background-color: white;
+	min-height: 0px;
+	list-style: none;
+	display: none;
+}
+.submenu-link {
+	color: black;
+	background-color: white;
+	display: block;
+	border-top: 1px solid black;
+	line-height: 40px;
+	text-indent: 10px;
+	padding: auto;
+}
+.header-menu-items:hover .submenu {
+	display: block;
+	position: absolute;
+}
+.header-menu-items:hover .header-menu-link {
+	text-align: center;
+}
+
+
+/*#4db6e* mau signup*/
+
+.button-1 {
+	margin-left: -38.5px;
+	margin-right: 45px;
+	display: inline-block;
+	color: white;
+}
+.button-2 {
+	display: inline-block;
+	color: white;
+	padding: 17px 35px;
+	border-radius: 15px;
+	background-color: #4db6eb;
+	margin-right: 0.3px;
+}
+.content {
+	margin-top: 20px;
+}
+.sticky {
+	background-image: linear-gradient(to right bottom, #3e7070 25%,MediumAquaMarine 50%, MediumSeaGreen 75%);
+	/*background-color: #3e7070;*/
+	opacity: 0.9;
+	color: white;
+	transition-delay: 0.25s; 
+}
+.container-1{
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.container-1 .card {
+	max-width: 300px;
+	height: 370px;
+	background: #fff;
+	margin: 35px 18px;
+	padding: 20px 15px;
+	display: flex;
+	border-radius: 5px;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+	overflow: hidden;	
+	transition: 0.3s ease-in-out;
+}
+
+.container-1 .card:hover {
+	height: auto;
+	display: inline-block;
+}
+
+.container-1 .card .imgBx{
+	width: 260px;
+	height: 260px;
+	top: -60px;
+	left: 40px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container-1 .card .imgBx img{
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.card-p1{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 36px;
+}
+.container-1 .card .content{	
+	padding: 10px 15px;
+	text-align: left;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;	
+}
+
+.container-1 .card:hover .content{	
+	visibility: visible;
+	opacity: 1;
+	line-height: 25px;
+	font-size: 18px;
+}
+.container-1 .card:hover .card-h2{
+	text-align: center;
+	font-size: 37px;
+	line-height: 35px;
+	
+}
+.container-1 .card:hover .card-h3{
+	text-align: center;
+	font-size: 24px;
+}
+.container-1 .card:hover .card-p2{
+	text-align: center;
+}
+.container-1 .card:hover .card-p1{
+	text-align: center;
+	display: none;
+}
+.footer {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #696969;
+	color: white;
+	font-size: 16px;
+	height: auto;
+	align-items: center;
+	padding: 30px 0;
+}
+.footer-1 {
+	margin-left: 230px;
+	align-items: center;
+}
+.footer-2 {
+	margin-right: 230px;
+	align-items: center;
+}
+.footer-2-list {
+	list-style: none;
+	display: flex;
+}
+.footer-2-list li {
+	padding-right: 3px;
+}
+

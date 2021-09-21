@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Book Camp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style-tac-gia.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&
+		display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+	<div class="container">
+		<header class="header">
+			<a href="../index.html" class="header-logo">
+				<img title="Book Camp - nơi chia sẻ những kỉ niệm của anh và em" src="../image_3/Logo_1.png" alt="Book Camp" 
+				class="header-logo-image">
+			</a>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="../index.html" class="header-menu-link">Trang chủ</a>		
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="" class="header-menu-link">Thể loại</a>
+					<ul class="submenu">	
+						<li><a href="../the_loai/index_3_the_loai_trinh_tham.html"
+						class="submenu-link">Trinh thám</a></li>
+						<li><a href="../the_loai/index_3_the_loai_lang_man.html" 
+						class="submenu-link">Lãng mạn</a></li>
+						<li><a href="../the_loai/index_3_the_loai_phieu_luu.html"
+						class="submenu-link">Phiêu lưu</a></li>
+						<li><a href="../the_loai/index_3_the_loai_hoi_ky.html" 
+						class="submenu-link">Hồi ký</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="" class="header-menu-link">Tác giả</a>
+					<ul class="submenu">	
+						<li><a href="./index_3_tac_gia_keigo.html" 
+						class="submenu-link">Higashino Keigo</a></li>
+						<li><a href="./index_3_tac_gia_murakami.html" 
+						class="submenu-link">Murakami Haruki</a></li>
+						<li><a href="./index_3_tac_gia_minato.html" 
+						class="submenu-link">Minato Kanae</a></li>
+						<li><a href="./index_3_tac_gia_chris_kyle.html" 
+						class="submenu-link">Chris Kyle</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="" class="header-menu-link" onClick="tuSach();">Tủ sách</a>	
+				</li>
+			</ul>
+			
+			<div class="header-auth">
+				<a href="../login-area/index_3_login_area.html" class="button button-1">Login</a>
+				<a href="" class="button button-2">Sign up</a>
+			</div>	
+		</header>
+		
+		<br><br><br><br><br>
+		
+		<!-- Thông tin tác giả-->
+		<section class="about">
+			<div class="main">
+				<img src="../image_3/image_keigo.jpg" title="Higashino Keigo">
+				<div class="about-text">
+					<h1>Higashino Keigo</h1>
+					<h5>Nhà văn Nhật Bản</h5>
+					<p>Ông là nhà văn Nhật Bản được biết đến rộng rãi qua các tiểu thuyết 
+					trinh thám. Ông từng là chủ tịch thứ 13 của Hội nhà văn Trinh thám Nhật
+					Bản từ năm 2009 đến 2013. 
+					</p>
+					<br>
+					<p>Ông sinh ra ở Osaka. Sau khi tốt nghiệp Đại học Osaka với bằng Cử nhân 
+					kỹ thuật ngành Kỹ thuật điện, ông bắt đầu sáng tác tiểu thuyết trong khi 
+					vẫn tiếp tục làm công việc kỹ sư lại Nippon Denso Co. (hiện là DENSO) từ năm1981. 
+					Ông đã thắng giải Edogawa Rampo, giải thưởng hàng năm dành cho các tác phẩm trinh 
+					thám chưa được xuất bản vào năm 1985 với tiểu thuyết Hōkago ở tuổi 27. Ngay sau đó, 
+					ông bỏ việc và bắt đầu chuyên tâm vào nghiệp sáng tác tại Tokyo.
+					Vào năm 1999, ông đã thắng Giải thưởng Văn học Trinh thám Nhật Bản cho tiểu thuyết 
+					Bí mật của Naoko
+					Năm 2006, ông giành giải Naoki lần thứ 134 với tác phẩm Phía sau nghi can X
+					Chiến thắng tại giải Honkaku lần thứ 6 và được xếp đầu tiên trong danh sách 
+					Kono Mystery ga Sugoi! 2006 và 2006 Honkaku Mystery Best 10, danh sách các tiểu 
+					thuyết trinh thám được xuất bản tại Nhật Bản hàng năm.
+					</p>
+				
+						
+					
+				</div>
+			</div>
+		</section>
+		
+		<!--Thông tin sách-->
+		<div class="container-1">
+			
+			<!--PHÍA SAU NGHI CAN X-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-nghi-can-x.jpg">
+				</div>
+				<p class="card-p1">PHÍA SAU NGHI CAN X</p>
+				<div class="content">
+					<h2 class="card-h2">PHÍA SAU NGHI CAN X</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>“Việc nghĩ ra một bài toán vô cùng khó và việc giải bài toán đó, 
+						việc nào khó hơn?”
+						Khi nhấn chuông cửa nhà nghi can chính của một vụ án mới, 
+						điều tra viên Kusanagi không biết rằng anh sắp phải đương đầu 
+						với một thiên tài ẩn dật. Kusanagi càng không thể ngờ rằng, 
+						chỉ một câu nói vô thưởng vô phạt của anh đã kéo người bạn thân, 
+						Manabu Yukawa, một phó giáo sư vật lý tài năng, vào vụ án. 
+						Và điều làm sững sờ nhất, đó là vụ án kia chẳng qua cũng chỉ như 
+						một bài toán cấp ba đơn giản, tuy nhiên ấn số X khi được phơi bày 
+						ra lại không đem đến hạnh phúc cho bất cứ ai…			
+						</p>
+				</div>
+			</div>
+			
+			<!--BÍ MẬT CỦA NAOKO-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-bi-mat-cua-naoko.jpg">
+				</div>
+				<p class="card-p1">BÍ MẬT CỦA NAOKO</p>
+				<div class="content">
+					<h2 class="card-h2">BÍ MẬT CỦA NAOKO</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Cuộc sống của Hirasule trôi qua hết sức bình lặng, cho đến 
+						một ngày tai nạn giao thông khủng khiếp xảy ra và gã mất đi 
+						người vợ yêu quý nhất của mình, còn đứa con gái bé bỏng vẫn 
+						trong tình trạng hôn mê bất tỉnh. Nhưng chỉ sau một đêm, con 
+						gái gã tỉnh lại và một mực xưng mình là Naoko, vợ gã. Dường như
+						linh hồn của Naoko đã nhập vào thể xác con gái, còn Monami 
+						thực sự đã chết. Rốt cuộc Hirasuke đã mất vợ hay con gái trong 
+						vụ tai nạn ấy?				
+						</p>
+				</div>
+			</div>
+			
+			<!--BẠCH DẠ HÀNH-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-bach-da-hanh.jpg">
+				</div>
+				<p class="card-p1">BẠCH DẠ HÀNH</p>
+				<div class="content">
+					<h2 class="card-h2">BẠCH DẠ HÀNH</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Kosuke, chủ một tiệm cầm đồ bị sát hại tại một ngôi nhà 
+						chưa hoàn công, một triệu yên mang theo người cũng bị cướp mất.
+						Sau đó một tháng, nghi can Fumiyo được cho rằng có quan hệ 
+						tình ái với nạn nhân và đã sát hại ông để cướp một triệu yên,
+						cũng chết tại nhà riêng vì ngộ độc khí ga. Vụ án mạng ông chủ 
+						tiệm cầm đồ rơi vào bế tắc và bị bỏ xó.
+						Nhưng với hai đứa trẻ mười một tuổi, con trai nạn nhân và con
+						gái nghi can, vụ án mạng năm ấy chưa bao giờ kết thúc. Sinh tồn 
+						và trưởng thành dưới bóng đen cái chết của bố mẹ, cho đến cuối đời,
+						Ryoji vẫn luôn khao khát được một lần đi dưới ánh mặt trời, 
+						còn Yukiho cứ ra sức vẫy vùng rồi mãi mãi chìm vào đêm trắng.			
+						</p>
+				</div>
+			</div>
+			
+			<!--ĐIỀU KỲ DIỆU CỦA TIỆM TẠP HÓA NAMIYA-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-dieu-ky-dieu.jpg">
+				</div>
+				<p class="card-p1">ĐIỀU KỲ DIỆU CỦA TIỆM TẠP HÓA NAMIYA</p>
+				<div class="content">
+					<h2 class="card-h2">ĐIỀU KỲ DIỆU CỦA TIỆM TẠP HÓA NAMIYA</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Một đêm vội vã lẩn trốn sau phi vụ khoắng đồ nhà người, 
+						Atsuya, Shota và Kouhei đã rẽ vào lánh tạm trong một căn nhà 
+						hoang bên con dốc vắng người qua lại. Căn nhà có vẻ khi xưa 
+						là một tiệm tạp hóa với biển hiệu cũ kỹ bám đầy bồ hóng, 
+						khiến người ta khó lòng đọc được trên đó viết gì. Định bụng 
+						nghỉ tạm một đêm rồi sáng hôm sau chuồn sớm, cả ba không ngờ 
+						chờ đợi cả bọn sẽ là một đêm không ngủ, với bao điều kỳ bí 
+						bắt đầu từ một phong thư bất ngờ gửi đến…				
+						</p>
+				</div>
+			</div>
+					
+			<!--THÁNH GIÁ RỖNG-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-thanh-gia-rong.jpg">
+				</div>
+				<p class="card-p1">THÁNH GIÁ RỖNG</p>
+				<div class="content">
+					<h2 class="card-h2">THÁNH GIÁ RỖNG</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Đằng sau mỗi vụ án mạng luôn có một câu chuyện đau lòng 
+						và đầy nước mắt. Nhưng liệu rằng tử hình có phải là hình phạt 
+						thích đáng cuối cùng cho mọi tội ác? Công lý có thực sự được 
+						thực thi? Liệu rằng khi lời tuyên bố án tử được vang lên 
+						trước tòa, thân nhân của người bị hại có thực sự thấy yên lòng, 
+						nỗi đau có phần nào được bù đắp và kẻ gây nên tội ác có chút nào 
+						ăn năn, hối cải?
+						Thánh giá rỗng là câu chuyện xoay quanh hai vụ án mạng tàn khốc 
+						trong cùng một gia đình. Ngày 21 tháng 9 của mười một năm về trước, 
+						cô bé Manami ngây thơ, vô tội đã bị sát hại tại nhà riêng. 
+						Đúng mười một năm sau, mẹ cô bé – Sayoko, cũng bị giết hại dã man 
+						trên con đường thuộc quận Koto. Nakahara – một người chồng, 
+						một người cha bất hạnh đã hai lần phải cảm nhận nỗi đau mất người 
+						thân. Cái chết đầy uẩn khúc của Sayoko đã khiến anh tạm gác lại niềm riêng để bước vào cuộc hành trình tìm kiếm sự thật.
+						Trên con đường tìm lời giải đáp cho mọi thắc mắc của mình, 
+						Nakahara vô tình tìm ra mối liên hệ giữa vụ án mạng của vợ anh 
+						và một bí mật động trời khác đã được chôn giấu suốt hai mươi mốt 
+						năm trời.
+						</p>
+
+				</div>
+			</div>
+
+			<!--HOA ẢO MỘNG-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-hoa-ao-mong.jpg">
+				</div>
+				<p class="card-p1">HOA ẢO MỘNG</p>
+				<div class="content">
+					<h2 class="card-h2">HOA ẢO MỘNG</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Một ngày thu, viên cảnh sát trẻ Shinichi trên đường 
+						ra ga tàu điện để tới sở làm, gặp một kẻ điên đang tàn 
+						sát nhiều người trên phố. Anh bị hắn dùng kiếm chém chết. 
+						Mấy chục năm sau, ông cụ Shuji sống một mình trong căn hộ 
+						nhỏ cũng bị giết. Tài sản trong nhà không mất mát gì, trừ 
+						một chậu hoa lạ lùng không có tên.Quyết làm rõ nguyên nhân 
+						cái chết của ông nội, Rino kiên nhẫn lần theo từng manh mối 
+						vụn vặt, nhiều khi tưởng chừng vô nghĩa, hòng tìm ra bí mật 
+						của chậu hoa bị mang đi.
+						Nhưng cô không biết rằng, mình đang vô tình vướng vào một 
+						lời nguyền khủng khiếp kéo dài hơn một trăm năm: “kẻ nào 
+						theo đuổi loài hoa mộng tưởng, sớm muộn cũng sẽ hủy hoại 
+						bản thân mình.”	
+						</p>
+				</div>
+			</div>
+			
+			<!--NGÔI NHÀ CỦA NGƯỜI CÁ SAY NGỦ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-nguoi-ca.jpg">
+				</div>
+				<p class="card-p1">NGÔI NHÀ CỦA NGƯỜI CÁ SAY NGỦ</p>
+				<div class="content">
+					<h2 class="card-h2">NGÔI NHÀ CỦA NGƯỜI CÁ SAY NGỦ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Xoay quanh câu chuyện về một cặp vợ chồng dự định sẽ ly hôn 
+						sau khi cô con gái Mizuko vào cấp một.Nhưng tin dữ ập đến, 
+						một tai nạn bất ngờ không may ập đến với cô bé ở bể bơi. 
+						Nhưng sự thật còn đau đớn hơn gấp bội khi đứa con gái duy 
+						nhất của họ đã chết não nhưng trái tim vẫn còn đập bởi một 
+						sức mạnh kì lạ.
+						Chính vào giây phút dấu hiệu của sự sống đang lụi tàn dần, 
+						cha mẹ cô bé phải tiếp nhận một sự thật tàn khốc: có nên hiến 
+						tạng của cô bé hay không?
+						Trái tim cô bé vẫn còn đang đập và những ràng buộc riêng trên 
+						mặt luật pháp đã không cho vị bác sĩ nào dám khẳng định cô bé 
+						đã tử vong. Họ buộc lựa chọn tiếp tục chăm sóc đứa con gái đã 
+						rơi vào trạng thái thực vật hay buông tay, chấp nhận hiến tạng 
+						đứa con gái yêu duy nhất?
+						Tất cả tạo nên một chuỗi những âu lo với bố mẹ cô bé :“Vậy kẻ 
+						hại chết con gái tôi sẽ là tôi sao? Không chỉ là những trăn trở 
+						về mặt pháp luật mà còn nhen nhóm hi vọng mong manh rằng chỉ cần 
+						trái tim còn đập thì một ngày kia cô bé sẽ dần lấy lại ý thức?.
+						“Liệu cố gắng níu giữ sự “sự tồn tại” của một người đã chết có 
+						ý nghĩa gì? Hay đây chỉ là sự ích kỷ của bản thân họ khi từ chối 
+						hiến tạng con gái mình?. Điều này đã khiến người mẹ đã có những 
+						ý nghĩ không thấu đáo nhất thời nhưng cuối cùng…
+						</p>
+				</div>
+			</div>
+			
+			<!--ẢO DẠ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-ao-da.jpg">
+				</div>
+				<p class="card-p1">ẢO DẠ</p>
+				<div class="content">
+					<h2 class="card-h2">ẢO DẠ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>“Chúng ta không còn lựa chọn nào khác, chỉ có thể đi trên 
+						con đường ở trong bóng tối. Dẫu cho bốn phía xung quanh sáng 
+						rực như ban ngày, cũng chỉ là ánh sáng không chân thực mà thôi.”
+						Để thoát một khoản nợ, Masaya đãlợi dụng trận động đất kinh 
+						hoàng để giết chết ông cậu rồi dàn dựng thành một vụ tai nạn. 
+						Nhưng tất cả không qua được mắt Mifuyu, cô gái bí ẩn nhà hàng xóm. 
+						Mang theo bí mật của Masaya, Mifuyu cùng anh lên Tokyo, bỏ lại 
+						sau lưng một Kyoto hoang tàn sau cơn địa chấn.
+						Song ở nơi đô hội làmột chuỗi bi kịch nối tiếp nhau, nơi bóng 
+						đen của tội ác trong quá khứ như vũng dầu loang, vĩnh viễn không 
+						bao giờ xóa sạch, ngày một lan rộng. Bí ẩn nối liền bí ẩn, mọi 
+						người tiếp cận Mifuyu đều gặp chuyện không may, những ai chạm 
+						đến quá khứ của cô đều mất tích…
+						Rốt cuộc, cô gái bí ẩn luôn sát cánh bên Masaya trong bóng đêm 
+						tăm tối là ai?		
+						</p>
+				</div>
+			</div>
+			
+			<!--TRƯỚC KHI NHẮM MẮT-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-truoc-khi-nham-mat.jpg">
+				</div>
+				<p class="card-p1">TRƯỚC KHI NHẮM MẮT</p>
+				<div class="content">
+					<h2 class="card-h2">TRƯỚC KHI NHẮM MẮT</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Minae mở to mắt, cố nhìn xem chuyện gì đang diễn ra.
+						Khi ấy, “thứ đó” ở ngay trước mắt cô.
+						“Thứ đó” là bộ hãm xung của ô tô. Cái hãm xung đó đang cố 
+						nuốt trọn cơ thể cô… Xương sườn cô gãy răng rắc, dạ dày, 
+						nội tạng như đang vỡ tung. Mọi việc diễn biến như thước phim 
+						quay chậm. Minae hiểu ra cái ô tô đang cố nghiền nát mình. 
+						Sau lưng cô có một bức tường, cô đang bị kẹp giữa ô tô và bức 
+						tường đó như nhân bánh sandwich…
+						</p>
+				</div>
+			</div>
+					
+			<!--TRỨNG CHIM CÚC CU NÀY THUỘC VỀ AI?-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-trung-chim-cuc-cu.jpg">
+				</div>
+				<p class="card-p1">TRỨNG CHIM CÚC CU NÀY THUỘC VỀ AI?</p>
+				<div class="content">
+					<h2 class="card-h2">TRỨNG CHIM CÚC CU NÀY THUỘC VỀ AI?</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Hiromasa Hida từng là một trong những vận động viên trượt 
+						tuyết hàng đầu Nhật Bản, đại diện cho đất nước đi tham gia 
+						nhiều giải đấu quốc tế; con gái anh Kazami cũng là một vận 
+						động viên trượt tuyết. Lúc Kazami hai tuổi, vợ anh, mẹ của 
+						Kazami tự sát. Hida lúc đó đang trong giải đấu quốc tế khi 
+						Kazami trào đời, và chỉ khi anh vượt qua nỗi đau sau cái chết 
+						của người vợ anh mới biết rằng cô ấy có một bí mật cần che 
+						dấu: Kazami không phải là con gái ruột của họ. Bỏ qua nỗi 
+						đau của sự thật phũ phàng ấy, Hida tiếp tục nuôi dạy Kazami 
+						và con bé dần trở thành một vận động viên tài giỏi hơn anh.
+						Một thời gian sau, với khát vọng tìm ra được mối liên kết 
+						giữa gien di truyền và kĩ năng đạt được của những vận động 
+						viên trượt tuyết trong một cuộc huấn luyện, đội của Kazami 
+						mong muốn được nghiên cứu bộ gen của cả người cha lẫn con 
+						gái nên đã đưa ra lời đề nghị mời cặp bố con Hida. Không 
+						muốn tiết lộ bí mật về sự ra đời của con gái mình, Hida từ 
+						chối yêu cầu đó. Kazami nhận được một bức thư đe dọa khi 
+						cô ấy chuẩn bị tham gia một giải đấu, và rồi có một cuộc 
+						đánh bom xe buýt rõ ràng là nhằm vào cô. Bị thương nặng 
+						trong vụ đánh bom là Nobuyuki Kamijo, chủ tịch một công 
+						ty xây dựng đã đến gặp Kazami, người tuyên bố là một fan 
+						hâm mộ của cô.
+						Ai là người đứng đằng sau vụ đe dọa và mục đích của họ là gì ?
+						Ai là cha mẹ ruột thực sự của Kazami ?
+						Hida tự tiến hành điều tra để trả lời những câu hỏi này, 
+						và anh đã tìm ra cha đẻ của Kazami. Nhưng việc tiết lộ sự 
+						thật kinh hoàng này với Kazami luôn là điều mà anh đắn đo. 
+						Giữa ranh giới của việc nói ra sự thật hoặc tiếp tục che dấu 
+						thân phận thực sự của Kazami. Đã đến lúc Hida phải đưa ra một 
+						quyết định quan trọng.
+						</p>
+				</div>
+			</div>
+					
+			<!--MA NỮ CỦA LAPLACE-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-ma-nu.jpg">
+				</div>
+				<p class="card-p1">MA NỮ CỦA LAPLACE</p>
+				<div class="content">
+					<h2 class="card-h2">MA NỮ CỦA LAPLACE</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Những hiện tượng dị thường xuất hiện quanh Madoka, 
+						một cô gái trẻ. Sau thời gian làm vệ sĩ cho cô, Takeo, 
+						một cựu cảnh sát, đã nhận thấy điều đó. Trong khi những 
+						nghi vấn của anh chưa có lời đáp, Madoka đột nhiên biến mất…
+						Cùng lúc đó, những vụ tử vong vì khí hydro sulfua xảy đến 
+						tại hai khu du lịch suối nóng cách xa nhau. Đến hiện trường 
+						điều tra, giáo sư chuyên ngành địa hóa học Aoe chạm tránmột 
+						cô gái trẻ bí ẩn. Lần theo tung tích của cô, Aoe bắt gặp 
+						một thảm kịch kinh hoàng từ quá khứ, và sự tồn tại của một 
+						dự án tối mật có liên quan tới tương lai nhân loại…
+						“Một cuốn sách đáng kinh ngạc phá vỡ giá trị quan của tôi 
+						từ trước đến nay.”		
+						</p>
+				</div>
+			</div>
+			
+			<!--SỰ CỨU RỖI CỦA THÁNH NỮ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-su-cuu-roi-thanh-nu.jpg">
+				</div>
+				<p class="card-p1">SỰ CỨU RỖI CỦA THÁNH NỮ</p>
+				<div class="content">
+					<h2 class="card-h2">SỰ CỨU RỖI CỦA THÁNH NỮ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Trong biệt thự nhà Mashiba Yoshitaka, người chồng trúng độc 
+						chết trên sàn, thạch tín còn sót lại trong cốc cà phê đổ lênh 
+						láng bên cạnh. Mọi nghi vấn tập trung vào hai đối tượng: người 
+						vợ Ayane vốn là nghệ nhân nổi tiếng với các tác phẩm thảm ghép 
+						vải độc đáo đắt tiền trưng bày ở khu Ginza, và cô người tình bí 
+						mật Wakayama Hiromi, cũng là học trò của Ayane. Nhưng cả hai đều 
+						có chứng cứ ngoại phạm vững chắc. Và cảnh sát đau đầu vì vấn đề 
+						hóc búa: Làm thế nào hung thủ bỏ thạch tín hạ độc Yoshitaka, khi 
+						không ai khác có khả năng tiếp cận nạn nhân quanh thời điểm xảy 
+						ra vụ án.
+						Một lần nữa thiên tài “thám tử Galileo” Yukawa Manabu nhập cuộc. 
+						Anh đã tìm ra đáp án, nhưng là một “đáp án ảo”, chỉ “có thể suy 
+						nghĩ về mặt lý thuyết nhưng không thể tồn tại trong hiện thực”.			
+						</p>
+				</div>
+			</div>
+					
+			<!--PHƯƠNG TRÌNH HẠ CHÍ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-pt-ha-chi.jpg">
+				</div>
+				<p class="card-p1">PHƯƠNG TRÌNH HẠ CHÍ</p>
+				<div class="content">
+					<h2 class="card-h2">PHƯƠNG TRÌNH HẠ CHÍ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Một cuộc gặp tình cờ với cậu bé Esaki Kyohei trên xe lửa 
+						đã đưa đẩy Yukawa Manabu, một phó giáo sư vật lý đang đi dự 
+						hội nghị, tới nghỉ tại quán trọ buồn hiu mang tên Lục Nham Trang, 
+						để rồi bị cuốn vào số phận những con người nơi đó. Cái chết của 
+						người khách trọ Tsukahara Masatsugu, cựu cảnh sát hình sự thuộc 
+						Sở Cảnh sát Tokyo dưới vách đá gần biển Harigaura buộc cảnh sát 
+						phải lục lại hồ sơ một vụ án xảy ra cách đó mười sáu năm, nhưng 
+						Yukawa Manabu, vị “thám tử Galileo” đã nhận ra những điều bất 
+						thường quanh đó. Một bí mật tưởng chừng đã bị chôn sâu dưới đáy 
+						biển Harigaura đang chờ khám phá, mà cội nguồn của nó có thể kéo 
+						về tận Tokyo nhiều năm về trước.	
+						</p>
+				</div>
+			</div>
+			
+			<!--TÊN CỦA TRÒ CHƠI LÀ BẮT CÓC-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-ten-cua-tro-choi-la-bat-coc.jpg">
+				</div>
+				<p class="card-p1">TÊN CỦA TRÒ CHƠI LÀ BẮT CÓC</p>
+				<div class="content">
+					<h2 class="card-h2">TÊN CỦA TRÒ CHƠI LÀ BẮT CÓC</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Sakuma Shunsuke là một kẻ hiếu thắng, không biết từ đâu cũng 
+						chẳng biết do ai ảnh hưởng, từ nhỏ đến lớn, từ chuyện học hành, 
+						thi cử đến tình yêu, sự nghiệp, Sakuma luôn coi mọi thứ xung quanh 
+						là trò chơi thắng thua.
+						Mặc kệ chuyện có khiến người khác tổn thương hay không, càng chẳng 
+						hề quan tâm đến hậu quả hay trách nhiệm gì gì đó, tất cả những gì 
+						Sakuma cần là chiến thắng, hết.
+						Có lẽ cũng chính vì thế mà anh ta chưa từng thua cuộc, dù là trước 
+						bất kỳ ai.
+						Thế mà, trong một dự án quảng cáo mà Sakuma dồn mọi tâm huyết, anh 
+						ta lại bị một kẻ tên Katsuragi Katsutoshi chê bai kém cỏi, sau đó 
+						thẳng tay sa thải?!
+						Lần đầu tiên nếm qua mùi vị của kẻ bại trận, cộng với men say sẵn 
+						có trong người, Sakuma đã tìm đến nhà Katsuragi trong vô thức, để 
+						rồi tình cờ bắt gặp Juri – con gái của Katsuragi – đang cố gắng 
+						trốn ra khỏi nhà.
+						Có lẽ chính số phận đã đưa hai kẻ cực kỳ thông minh nhưng lại đang 
+						lâm vào bước cùng ấy gặp được nhau.
+						Chuyện gì sẽ xảy ra khi hai bộ não xảo quyệt hạ quyết tâm cùng nhau 
+						toan tính cho một kế hoạch điên rồ?
+						Sẽ ra sao khi cảnh sát, con tin, tiền chuộc… tất cả sẽ chỉ là những 
+						con tốt thí trong một trò chơi với quy mô không tưởng này?
+						</p>
+				</div>
+			</div>
+			
+			<!--ÁC Ý-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-ac-y.jpg">
+				</div>
+				<p class="card-p1">ÁC Ý</p>
+				<div class="content">
+					<h2 class="card-h2">ÁC Ý</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>“Hàng xóm nuôi con mèo lông trắng điểm nâu. Mèo nhà mà cứ 
+						thả rông, để nó chạy sang vườn mình bứt cây đi bậy, phiền toái 
+						vô cùng, không làm sao mà chịu đựng được.”
+						Một nhà văn có bài tùy bút đăng báo, đại ý như vậy.
+						Báo phát hành được vài hôm thì con mèo hàng xóm chết vì trúng bả. 
+						Tình cờ là, chủ nó bắt gặp bài tùy bút. Và vấn đề là, con mèo của 
+						chị ta lông trắng điểm nâu.
+						Chiều hôm ấy, chị ta sang vườn nhà văn để tìm vết tích bả độc.
+						Tối hôm ấy, nhà văn bị giết.
+						Có một nhân vật nổi tiếng từng tiêu diệt rất nhiều người, thậm chí 
+						phá tan cả mấy băng đảng, chỉ để báo thù cho một con chó.
+						Vậy đây, liệu có phải án mạng để báo thù cho một con mèo?
+						</p>
+				</div>
+			</div>
+	
+			<!--CÁP TREO TÌNH YÊU-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-cap-treo.jpg">
+				</div>
+				<p class="card-p1">CÁP TREO TÌNH YÊU</p>
+				<div class="content">
+					<h2 class="card-h2">CÁP TREO TÌNH YÊU</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Một nữ nhân viên văn phòng bị hôn phu phản bội,
+						Một chàng trai ôm mộng tìm được tình yêu đích thực sau 
+						năm lần bảy lượt thất bại tình trường,
+						Một cô gái trẻ gặp phải gã đàn ông dối trá,
+						Một cặp đôi mới cưới vướng vào rắc rối với bố mẹ vợ.
+						Mỗi người họ đều ôm trong lòng nỗi phiền muộn riêng. 
+						Những cuộc đời tưởng chừng như không có điểm giao thoa ấy 
+						lại được gắn kết với nhau tại một khu trượt tuyết lạ kỳ, 
+						nơi có khả năng phơi bày sự thật và những điều thầm kín dù 
+						chúng ta có được con người ta che đậy kỹ càng tới đâu.
+						Vậy, sự thật liệu có luôn là điều mà con người ta muốn biết?
+						Đứng trước tình yêu, con người sẽ trở nên thảm hại, ích kỷ, 
+						hoặc nhiều dũng khí đến thế nào?
+						Những tình tiết bất ngờ trong Cáp treo tình yêu sẽ khiến bạn 
+						phải bật cười và tự hỏi điều gì tiếp theo có thể xảy ra.
+						</p>
+				</div>
+			</div>
+					
+			<!--THƯ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-thu.jpg">
+				</div>
+				<p class="card-p1">THƯ</p>
+				<div class="content">
+					<h2 class="card-h2">THƯ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>THƯ là một áng văn trần trụi ngột ngạt ứa ra từ người tù sau song sắt.
+						Lâu nay, nếu có giai thoại gì về người tù, thì đó thường là một người tù kiên trì, có thành tựu.
+						Ví như kiên trì rèn sức khi bị giam, và tạo ra một giáo trình thể hình hiệu quả…
+						Ví như chịu khó đa dạng hóa cách vượt ngục, dù liên tục bị bắt về…
+						Ví như kiên trì đào tường hàng chục năm ròng, chỉ bằng một cái đục đá…
+						</p>
+				</div>
+			</div>
+			
+			<!--ĐƠN PHƯƠNG-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-don-phuong.jpg">
+				</div>
+				<p class="card-p1">ĐƠN PHƯƠNG</p>
+				<div class="content">
+					<h2 class="card-h2">ĐƠN PHƯƠNG</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Bức tranh khắc họa hiện thực xã hội, ca ngợi tình bạn, 
+						đồng thời là một lời dự đoán cho tương lai.
+						Thân thể là con gái, nhưng tâm hồn là con trai. 
+						Đau khổ chịu đựng suốt gần ba mươi năm, đến khi có cơ hội 
+						sống đúng với bản chất của mình thì Mitsuki lại vô tình dính 
+						vào một vụ giết người ngang trái. Đầu thú hay bỏ trốn? Trước 
+						khi đưa ra quyết định cuối cùng, Mitsuki muốn gặp lại những 
+						người bạn đại học đã cùng cô chia sẻ tuổi thanh xuân nồng nhiệt. 
+						Tetsuro cùng vợ mình, đồng thời là bạn thân của Mitsuki, 
+						quyết định giúp đỡ cô, nhưng… Phải chăng khoảng thời gian mười 
+						năm đã khiến tình bạn của họ, thậm chí cả bản thân họ, thay đổi?
+						</p>
+				</div>
+			</div>
+			
+			<!--MA THUẬT BỊ CẤM-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-ma-thuat-bi-cam.jpg">
+				</div>
+				<p class="card-p1">MA THUẬT BỊ CẤM</p>
+				<div class="content">
+					<h2 class="card-h2">MA THUẬT BỊ CẤM</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Nằm trong series điều tra của thanh tra Kusanagi và thiên 
+						tài phá án – nhà vật lý học Yukawa, câu chuyện bắt đầu bằng 
+						cái chết của một cô gái trẻ tại một khách sạn hạng sang ở Tokyo. 
+						Một thời gian sau, những vụ nổ kỳ quái liên tiếp xảy ra, 
+						khi ngoài đảo, lúc trên thuyền,mà không ai biết vì sao. 
+						Cuộc điều tra chỉ được bắt đầu từ án mạng của một cây viết 
+						tự do, để rồi các mối liên hệ bất ngờ dần lộ diện.
+						Nhưng lần này, kẻ tình nghi lại là một “đệ tử tài giỏi ngoài 
+						sức tưởng tượng” đã được Yukawa truyền dạy nhiều kiến thức vật 
+						lý và khoa học. Làm thế nào để những thành tựu nghiên cứu không 
+						trở thành “ma thuật bị cấm” dưới bàn tay của tài năng đó? 
+						Lần này, Yukawa phải tự mình giải quyết câu hỏi lớn.
+						</p>
+				</div>
+			</div>
+			
+			<!--ÁN MẠNG MƯỜI MỘT CHỮ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-11.jpeg">
+				</div>
+				<p class="card-p1">ÁN MẠNG MƯỜI MỘT CHỮ</p>
+				<div class="content">
+					<h2 class="card-h2">ÁN MẠNG MƯỜI MỘT CHỮ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Tình cờ phát hiện những điều bất thường sau cái chết thảm 
+						khốc của người yêu, nhân vật “tôi”, một nữ nhà văn viết tiểu 
+						thuyết trinh thám đã cùng bạn mình, Hagio Fuyuko, cũng là 
+						biên tập viên phụ trách sách của “tôi” quyết định điều tra 
+						về cái chết này. Trong quá trình điều tra hai người phát 
+						hiện người yêu của “tôi” đã từng gặp tai nạn lật thuyền 
+						trong chuyến du lịch đảo một năm trước. Và khi họ tìm tới 
+						những người cũng tham gia chuyến đi đó để tìm hiểu thì những 
+						người này cũng lần lượt bị sát hại. Cuối cùng “tôi” buộc 
+						phải tự mình phán đoán, điều tra để tìm ra chân tướng sự việc.
+						</p>
+				</div>
+			</div>
+						
+			<!--VỤ ÁN MẠNG Ở LỮ QUÁN KAIROTEI-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-vu-an-mang-kairotei.jpg">
+				</div>
+				<p class="card-p1">VỤ ÁN MẠNG Ở LỮ QUÁN KAIROTEI</p>
+				<div class="content">
+					<h2 class="card-h2">VỤ ÁN MẠNG Ở LỮ QUÁN KAIROTEI</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Bản di chúc về khối tài sản kếch xù của ông Ichigahara Takaaki 
+						sẽ được công bố vào đúng lễ 49 ngày của ông tại lữ quán Kairotei, 
+						nơi sinh thời ông vô cùng yêu mến. Nhưng một lá thư hé lộ sự thật bị 
+						chôn vùi dưới lớp tro tàn của vụ hỏa hoạn ở lữ quán này nửa năm trước, 
+						xuất hiện đúng buổi tối trước ngày công bố di chúc đã khiến mọi 
+						chuyện trở nên rối tung. Cũng trong đêm đó, một người đã bị sát hại. 
+						Ngọn lửa ngờ vực bắt đầu âm ỉ cháy lan, một thảm kịch khác đã được 
+						soạn sẵn và chờ hồi kết để hạ màn
+						</p>
+				</div>
+			</div>
+							
+			<!--BIẾN THÂN-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-bien-than.jpg">
+				</div>
+				<p class="card-p1">BIẾN THÂN</p>
+				<div class="content">
+					<h2 class="card-h2">BIẾN THÂN</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Một thanh niên trung hậu hiền lành, hiền đến nỗi chẳng mấy 
+						khi phản đối lời người khác, không may may gặp tai bay vạ gió. 
+						Người ta đưa cậu vào bệnh viện, tiến hành một ca phẫu thuật lần 
+						đầu tiên xuất hiện trên thế giới.
+						Ra viện, thanh niên trở lại với công việc, với người yêu dịu dàng. 
+						Nhưng cậu không còn hiền lành, trung hậu, cũng không nín nhịn nữa. 
+						Cậu trở nên hung hãn, bản năng và thú vật. Giữa những phút tỉnh 
+						táo hiếm hoi, thanh niên thống khổ đi tìm lại bản thân trước kia, 
+						bấy giờ mới biết người ta đã làm gì mình trong ca phẫu thuật…
+						</p>
+				</div>
+			</div>
+			
+			<!--TRÁI TIM CỦA BRUTUS-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-brutus.jpg">
+				</div>
+				<p class="card-p1">TRÁI TIM CỦA BRUTUS</p>
+				<div class="content">
+					<h2 class="card-h2">TRÁI TIM CỦA BRUTUS</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Suenaga Takuya là một kĩ sư triển vọng trong lĩnh vực phát triển 
+						người máy thông minh cho một doanh nghiệp sản xuất thiết bị công 
+						nghiệp cực thịnh. Hắn là một kẻ tham vọng, luôn tìm mọi cách để leo 
+						lên và đang nhắm tới vị thế con rể của Phó giám đốc công ty. Ai dè, 
+						mọi tính toán của hắn trật lất khi cô nhân tình mang thai và khăng 
+						khăng không định bỏ đứa trẻ. Takuya bị dồn vào thế bí, thận trọng 
+						suy tính và quyết định bày ra một kế hoạch giết người…
+						Brutus là tên một nhân vật nổi tiếng trong lịch sử La Mã. Ban đầu, 
+						ông ta thuộc phe đối địch với Julius Caesar nhưng về sau đã quy hàng 
+						và được Caesar trọng dụng. Có điều, cuối cùng ông lại chính là kẻ đã 
+						ám sát thành công Ceasar dẫn đến sự sụp đổ của Đế chế La Mã. Vậy 
+						trong câu truyện về trái tim kẻ phản bội này, Higashino Keigo muốn 
+						truyền thông điệp gì tới người đọc?
+						</p>
+				</div>
+			</div>
+			
+			<!--VỤ ÁN MẠNG Ở NHÀ KHÁCH NÚI HAKUBA-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-vu-an-mang-o-nha-khach-nui-hakuba.jpg">
+				</div>
+				<p class="card-p1">VỤ ÁN MẠNG Ở NHÀ KHÁCH NÚI HAKUBA</p>
+				<div class="content">
+					<h2 class="card-h2">VỤ ÁN MẠNG Ở NHÀ KHÁCH NÚI HAKUBA</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Câu chuyện mở ra bắt đầu từ việc Naoko và người bạn Makoto 
+						của mình đi tới nhà khách núi Hakuba để tìm hiểu về chân tướng 
+						của việc người anh trai đã tự sát ở đây một năm trước. Trước 
+						ngày tự sát thì anh trai có gửi cho Naoko một bức bưu thiếp 
+						với câu hỏi nhờ em mình tìm xem “Maria đã về nhà khi nào”. 
+						Đây là một cuốn của bác Higashino Keigo thời đầu mới chuyển 
+						mình sang trinh thám, với motip kinh điển là án mạng phòng kín, 
+						khu vực biệt lập và giải mật mã.
+						</p>
+				</div>
+			</div>
+						
+			<!--NHÀ ẢO THUẬT ĐEN VÀ ÁN MẠNG TẠI THỊ TRẤN KHÔNG TÊN-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-nha-ao-thuat-den.jpg">
+				</div>
+				<p class="card-p1">NHÀ ẢO THUẬT ĐEN VÀ ÁN MẠNG TẠI THỊ TRẤN KHÔNG TÊN</p>
+				<div class="content">
+					<h2 class="card-h2">NHÀ ẢO THUẬT ĐEN VÀ ÁN MẠNG TẠI THỊ TRẤN KHÔNG TÊN</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Ở một thị trấn không tên, ảm đạm chẳng ai buồn ghé đến, hy vọng 
+						đổi đời nhờ một kế hoạch phát triển du lịch vô tiền khoáng hậu đã 
+						sụp đổ tan tành khi trận đại dịch tràn tới. Virus Corona làm đảo 
+						lộn cuộc sống, gieo rắc nỗi sợ hãi, khơi dậy bóng tối lẩn lút trong 
+						lòng người.
+						Giữa bối cảnh đó, một vụ án mạng kỳ lạ xảy ra. Cảnh sát lặng im. 
+						Bí ẩn chồng chất bí ẩn. Hung thủ là ai? Âm mưu nào đang bao trùm 
+						thị trấn bé nhỏ này?
+						Đã đến lúc “nhà ảo thuật đen” trổ tài! Với trí tuệ hơn người và 
+						những ngón xảo thuật ma mãnh, gã thách thức cảnh sát, tuyên bố sẽ 
+						tự mình tìm ra hung thủ.
+						</p>
+				</div>
+			</div>
+						
+			<!--HUNG KHÍ HOÀN MỸ-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-hung-khi-hoan-my.jpg">
+				</div>
+				<p class="card-p1">HUNG KHÍ HOÀN MỸ</p>
+				<div class="content">
+					<h2 class="card-h2">HUNG KHÍ HOÀN MỸ</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Bốn vận động viên: Anjo Takuma, Niwa Junya, Hiura Yusuke, Sakura Shoko 
+						từng đại diện Nhật Bản tham dự Olympic ở bộ môn sở trường của họ. Và cả 
+						bốn người đã chạm tới vô vàn đỉnh cao vinh quang trong quá khứ, bỗng tụ 
+						hội lại, cũng vì quá khứ huy hoàng kia chứa đựng góc khuất tăm tối buộc 
+						họ phải tìm mọi cách che giấu. Nhưng liên tiếp những chuyện ngoài dự 
+						kiến xảy đến. Ký ức không những không bị xóa bỏ, mà bóng ma quá khứ 
+						còn phủ bóng lên hiện tại; hóa thành những tội ác man rợ nhuốm đẫm máu 
+						tanh từ lòng ích kỷ con người.
+						</p>
+				</div>
+			</div>
+					
+			<!--CÁNH KỲ LÂN-->
+			<div class="card">
+				<div class="imgBx">
+					<img src="../image_3/book-canh-ky-lan.jpg">
+				</div>
+				<p class="card-p1">CÁNH KỲ LÂN</p>
+				<div class="content">
+					<h2 class="card-h2">CÁNH KỲ LÂN</h2>	
+					<p class="card-p2">---------------------</p>
+					<h3 class="card-h3">Tác giả: Higashino Keigo</h3>
+					<p class="card-p2">...............</p>
+						<p>Vụ án mạng kỳ lạ xảy ra ở cầu Nihonbashi, nghi phạm rất nhanh được 
+						xác định. Nhưng chuyện éo le xảy ra, nghi phạm gặp tai nạn, rơi vào 
+						trạng thái hôn mê sâu, đẩy cuộc điều tra rơi vào bế tắc. Trong bối 
+						cảnh đồng nghiệp tiếp tục điều tra theo hướng cũ và liên tục đi tới 
+						ngõ cụt, Thanh tra Kaga đã có suy luận riêng. Từ đấy, hàng loạt sự 
+						thật từ quá khứ tới hiện tại dần hé lộ. Tất cả, đều hướng tới 
+						“điểm bắt đầu” ở chân hai bức tượng kỳ lân có cánh trên cầu Nihonbashi.
+						</p>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+	</div>
+	
+	<!------------- FOOTER ------------>
+	<footer class="footer">
+		<div class="footer-1">
+			<p>
+                &copy 2021 Bản quyền thuộc Đoàn Tiến Đạt 
+            </p>
+		</div>
+			
+		<div class="footer-2">
+			<ul class="footer-2-list">     
+                    <li><p>Book Camp</p></li>
+				<li> | </li>
+					<li><p>Điều khoản sử dụng</p></li>
+				<li> | </li>
+					<li><p>Giới thiệu</p></li>
+				<li> | </li>
+				<li><p>Hotline: (+84)968922801 - Email: doantiendat0502@gmail.com</p></li>			
+			</ul>
+		</div>
+	</footer>
+	
+	
+	<script>
+		<!------------- NavBar sticky ------------>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if($(this).scrollTop()){
+					$('header').addClass('sticky');
+				} else {
+					$('header').removeClass('sticky');
+				}
+			});	
+		});		
+		
+		
+		<!------------- Điều hướng tới Tủ Sách ------------>
+		function tuSach(){
+			alert("Bạn phải đăng nhập mới xem được tủ sách!");
+		}
+		
+		<!------------- Điều hướng tới  ------------>
+	</script>
+
+</body>
+</html>

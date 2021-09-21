@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Book Camp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&
+		display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>	
+
+<body>
+	<div class="wrapper">
+	<div class="container">
+		<!------------- HEADER ------------>
+		<header class="header">
+			<a href="index.html" class="header-logo">
+				<img title="Book Camp - nơi chia sẻ những kỉ niệm của anh và em" src="./image_3/Logo_1.png" alt="Book Camp" 
+				class="header-logo-image">
+			</a>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="index.html" class="header-menu-link">Trang chủ</a>		
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="" class="header-menu-link">Thể loại</a>
+					<ul class="submenu">	
+						<li><a href="./the_loai/index_3_the_loai_trinh_tham.html"
+						class="submenu-link">Trinh thám</a></li>
+						<li><a href="./the_loai/index_3_the_loai_lang_man.html" 
+						class="submenu-link">Lãng mạn</a></li>
+						<li><a href="./the_loai/index_3_the_loai_phieu_luu.html"
+						class="submenu-link">Phiêu lưu</a></li>
+						<li><a href="./the_loai/index_3_the_loai_hoi_ky.html" 
+						class="submenu-link">Hồi ký</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="" class="header-menu-link">Tác giả</a>
+					<ul class="submenu">	
+						<li><a href="./tac_gia/index_3_tac_gia_keigo.html" 
+						class="submenu-link">Higashino Keigo</a></li>
+						<li><a href="./tac_gia/index_3_tac_gia_murakami.html" 
+						class="submenu-link">Murakami Haruki</a></li>
+						<li><a href="./tac_gia/index_3_tac_gia_minato.html" 
+						class="submenu-link">Minato Kanae</a></li>
+						<li><a href="./tac_gia/index_3_tac_gia_chris_kyle.html" 
+						class="submenu-link">Chris Kyle</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-menu-items">
+					<a href="" class="header-menu-link" onClick="tuSach();">Tủ sách</a>	
+				</li>
+			</ul>
+			
+			<div class="header-auth">
+				<a href="./login-area/index_3_login_area.html" class="button button-1">Login</a>
+				<a href="" class="button button-2">Sign up</a>
+			</div>	
+		</header>
+		
+		<div class="header-banner">
+			<img src="./image_3/Banner_book_camp.png">		
+		</div>
+	<!------------- BANNER ------------>	
+		<section class="banner">
+			<div class="banner-info">
+				<h1 class="banner-heading">Sách là tri kỷ của mỗi chúng ta</h1>
+				<p class="banner-quote">Điều tuyệt vời nhất là được ngắm nhìn những cuốn sách mỗi ngày!</p>
+				<div class="banner-links">
+					<a href="" class="button-2" onclick="tuSach()">Đến và dừng chân tại tủ sách</a>
+					<a href="http://www.tramdoc.vn/?fbclid=IwAR0u2J9nFCesrhSMcHEhxOCfZUqPaTMz0vJAAbRKPmYU9UjST46FV3LzP54" class="button-outline" target="_blank"> Trạm đọc</a>	
+				</div>
+			</div>
+			<div class="banner-image-1">				
+				<img src="./image_3/image_1_book_camp.jpeg" class="banner-image">
+				<img src="./image_3/image_2_book_camp.jpeg" class="banner-image">
+				<img src="./image_3/image_3_book_camp.jpeg" class="banner-image">
+			</div>
+		</section>
+	<!------------- WORK ------------>	
+		<section class="work">
+			<div class="block">
+				<h2>Chào mừng các bạn đến với Book Camp</h2>				
+			</div>
+			<div class="work-list">
+				<div class="work-item-1">
+					<img src="./image_3/image_7_book_camp.jpeg" class="work-image">
+					<h3 class="work-title">Nơi tương tư những đầu sách hay</h3>
+				</div>
+				<div class="work-item-2">
+					<img src="./image_3/image_6_book_camp.jpeg" class="work-image">
+					<h3 class="work-title-1">Hòa mình với những cuốn sách</h3>
+				</div>
+				<div class="work-item-3">
+					<img src="./image_3/image_8_book_camp.jpeg" class="work-image">
+					<h3 class="work-title">Nơi những cuốn sách được che chở</h3>
+				</div>
+			</div>
+		</section>
+	</div>
+	</div>
+
+    <!------------- FOOTER ------------>
+	<footer class="footer">
+		<div class="footer-1">
+			<p>
+                &copy 2021 Bản quyền thuộc Đoàn Tiến Đạt 
+            </p>
+		</div>
+			
+		<div class="footer-2">
+			<ul class="footer-2-list">     
+                    <li><p>Book Camp</p></li>
+				<li> | </li>
+					<li><p>Điều khoản sử dụng</p></li>
+				<li> | </li>
+					<li><p>Giới thiệu</p></li>
+				<li> | </li>
+				<li><p>Hotline: (+84)968922801 - Email: doantiendat0502@gmail.com</p></li>			
+			</ul>
+		</div>
+	</footer>
+		
+		
+	
+	<script>
+		<!------------- NavBar sticky ------------>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if($(this).scrollTop()){
+					$('header').addClass('sticky');
+				} else {
+					$('header').removeClass('sticky');
+				}
+			});	
+		});		
+		
+		
+		<!------------- Điều hướng tới Tủ Sách ------------>
+		function tuSach(){
+			alert("Bạn phải đăng nhập mới xem được tủ sách!");
+		}
+		
+		<!------------- Điều hướng tới  ------------>
+	</script>
+	
+</body>
+</html>
