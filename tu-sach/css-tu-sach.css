@@ -198,19 +198,19 @@ a
 	overflow:hidden;
 	transition:0.2s;
 }
-a:hover
+.back-home-a:hover
 {
 	color: #255784;
 	background: #2196f3;
 	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 	transition-delay: 1s; 
 }
-a span
+.back-home-a span
 {
 	position: absolute;
 	display: block;
 }
-a span:nth-child(1)
+.back-home-a span:nth-child(1)
 {
 	top:0;
 	left:-100%;
@@ -218,12 +218,12 @@ a span:nth-child(1)
 	height:2px;
 	background: linear-gradient(90deg,transparent,#2196f3);
 }
-a:hover span:nth-child(1)
+.back-home-a:hover span:nth-child(1)
 {
 	left:100%;
 	transition:1s;	
 }
-a span:nth-child(3)
+.back-home-a span:nth-child(3)
 {
 	bottom:0;
 	right:-100%;
@@ -231,14 +231,14 @@ a span:nth-child(3)
 	height:2px;
 	background: linear-gradient(270deg,transparent,#2196f3);
 }
-a:hover span:nth-child(3)
+.back-home-a:hover span:nth-child(3)
 {
 	right:100%;
 	transition:1s;
 	transition-delay: 0.5s;
 }
 
-a span:nth-child(2)
+.back-home-a span:nth-child(2)
 {
 	top:-100%;
 	right:0;
@@ -246,14 +246,14 @@ a span:nth-child(2)
 	height:100%;
 	background: linear-gradient(180deg,transparent,#2196f3);
 }
-a:hover span:nth-child(2)
+.back-home-a:hover span:nth-child(2)
 { 
 	top:100%;
 	transition:1s;
 	transition-delay: 0.25s;
 } 
 
-a span:nth-child(4)
+.back-home-a span:nth-child(4)
 {
 	bottom: -100%;
 	left: 0;
@@ -261,7 +261,7 @@ a span:nth-child(4)
 	height: 100%;
 	background: linear-gradient(360deg,transparent,#2196f3);
 }
-a:hover span:nth-child(4)
+.back-home-a:hover span:nth-child(4)
 {
 	bottom: 100%;
 	transition: 1s;
